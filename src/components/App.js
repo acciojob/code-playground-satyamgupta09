@@ -13,9 +13,9 @@
 // export default App
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from "./components/Home";
-import Login from "./components/Login";
-import PrivateRoute from "./components/PrivateRoute";
+import Home from "./Home";
+import Login from "./Login";
+import PrivateRoute from "./PrivateRoute";
 import './../styles/App.css';
 
 const App = () => {
